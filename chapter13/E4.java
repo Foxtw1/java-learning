@@ -15,11 +15,11 @@ class E4 {
         y = scany.nextDouble();
 
         double h;
-        h = 2 / (1/x + 1/y);
+        h = 2.0 / (1/x + 1/y);
         System.out.println("Harmonic mean: " + h);
 
         double a;
-        a = (y + x) / 2;
+        a = (y + x) / 2.0;
         System.out.println("Arithmetic mean: " + a);
 
 
