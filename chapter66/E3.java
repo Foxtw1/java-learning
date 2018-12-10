@@ -28,7 +28,12 @@ class E3 {
 
             else if(name.equals("ADD")){
 
+                System.out.println("Who would you like to add?");
+                String newName = scan.nextLine();
+                
 
+                System.out.println("What is their number?");
+                String newNumber = scan.nextLine();
 
             }
 
